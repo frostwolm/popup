@@ -2,7 +2,7 @@
   display: block;
 }
 
-#next-items:checked .popup__next-list {
+#next-items:checked ~ .popup__next-list {
   display: block;
 }
 
