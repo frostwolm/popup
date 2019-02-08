@@ -1,5 +1,13 @@
-.nav__popupshow:checked ~ .popup {
+#popup:checked ~ .popup {
   display: block;
+}
+
+#next-items:checked .popup__next-list {
+  display: block;
+}
+
+#next-items:checked{
+  display: none;
 }
 
 .popup{
@@ -7,6 +15,7 @@
   position: absolute;
   right: 0px;
   border: 2px solid red;
+  width: 320px;
 }
 
 .popup__list{
@@ -23,4 +32,13 @@
 .popup__item{
   display: block;
   width: 100px;
+}
+
+.popup__showmore{
+  display: block;
+  text-align: center;
+}
+
+.popup__next-list{
+  display: none;
 }
