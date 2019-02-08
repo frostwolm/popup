@@ -4,4 +4,23 @@
 
 .popup{
   display: none;
+  position: absolute;
+  right: 0px;
+  border: 2px solid red;
+}
+
+.popup__list{
+  padding-left: 0;
+  list-style: none;
+}
+
+.popup__list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+}
+
+.popup__item{
+  display: block;
+  width: 100px;
 }
