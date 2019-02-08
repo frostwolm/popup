@@ -1,0 +1,7 @@
+.nav__popupshow:checked ~ .popup {
+  display: block;
+}
+
+.popup{
+  display: none;
+}
