@@ -10,6 +10,12 @@
   display: none;
 }
 
+.nav__list{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
 .popup{
   display: none;
   position: absolute;
